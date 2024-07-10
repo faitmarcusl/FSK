@@ -3,7 +3,7 @@ from scipy.signal import hilbert, welch
 from pydub import AudioSegment
 import wave
 from rx_gui import display  # Import only the display function
-
+ 
 def read_fsk(file_path):
     with wave.open(file_path, 'r') as wf:
         frames = wf.readframes(wf.getnframes())
