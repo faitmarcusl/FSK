@@ -6,7 +6,7 @@ import numpy as np
 import soundfile as sf
 from matplotlib.figure import Figure
 import os
-import time
+import time 
 
 def browse(in_file):
     # Open file dialog to select an audio file
