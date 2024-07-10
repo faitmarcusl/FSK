@@ -15,7 +15,7 @@ def browse(in_file):
 def start(in_file, base_freq, offset, run, progress, modulated_freq_plot, demodulated_freq_plot):
     audio = in_file.get()
     timestamp = int(time.time())
-    output = f'demodulated_{timestamp}.wav'
+    output = f'C:/Users/Jerwin_JIL/Downloads/FSK-F/demodulated/demodulated_{timestamp}.wav'
     base_freq = float(base_freq.get())
     offset = float(offset.get())
 

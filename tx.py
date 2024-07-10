@@ -3,7 +3,7 @@ from pydub import AudioSegment
 from pydub.utils import which
 import wave
 import tx_gui
- 
+
 # Configure pydub to use ffmpeg
 AudioSegment.converter = which("ffmpeg")
 
