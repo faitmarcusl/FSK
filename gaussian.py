@@ -3,7 +3,7 @@ import wave
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from scipy.io.wavfile import write
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 def add_awgn_noise(signal, snr_dB):
